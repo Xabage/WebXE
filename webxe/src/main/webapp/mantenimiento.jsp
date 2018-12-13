@@ -10,7 +10,7 @@
 
 <h1>Mantenimiento</h1>
 
-<table>
+<table action="mantenimiento" method="post">
  <thead>
 	<tr>
 		<th>ID</th>
@@ -18,6 +18,7 @@
 		<th>Fecha</th>
 		<th>Autor</th>
 		<th>Texto</th>
+		<th></th>
 	</tr>
  </thead>
  
@@ -27,9 +28,16 @@
 		<td>Titulo 1</td>
 		<td>13/12/18</td>
 		<td>Autor1</td>
-		<td>dfgdfggdsgfgfsdv fegefgeghu</td>
+		<td>Texto de la noticia 1</td>
+		<td><a href="#">Editar</a><span> </span><a href="#">Borrar</a></td>
 	</tr>	
-	
+	<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td><a href="#">Editar</a><span> </span><a href="#">Borrar</a></td>
+	</tr>
 
  
  </tbody>

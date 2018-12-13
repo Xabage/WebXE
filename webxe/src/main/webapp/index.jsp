@@ -1,4 +1,6 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="java.util.ArrayList, com.ipartek.formacion.pojosxe.Noticia" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -21,12 +23,12 @@
     
     <nav>
         <ul>
-            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">QuiÃ©nes somos</a></li>
             <li><a href="#">Servicios</a></li>
-            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Noticias</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contacto</a></li>
-            <li><a href="#">Mantenimiento</a></li>
+            <li><a href="/mantenimiento.jsp">Mantenimiento</a></li>
             
         </ul>
     </nav>
@@ -57,7 +59,7 @@
     
 <!-- <section>
     
-    <h2>Últimos Proyectos</h2>
+    <h2>Ãšltimos Proyectos</h2>
     
     <article>
        
@@ -69,7 +71,7 @@
         
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
         
-        <p><a href="#">leer más</a></p>
+        <p><a href="#">leer mÃ¡s</a></p>
         
     </article>
     
@@ -83,7 +85,7 @@
         
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
         
-        <p><a href="#">leer más</a></p>
+        <p><a href="#">leer mÃ¡s</a></p>
         
     </article>
     
@@ -97,7 +99,7 @@
         
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
         
-        <p><a href="#">leer más</a></p>
+        <p><a href="#">leer mÃ¡s</a></p>
         
     </article>
     
@@ -107,7 +109,7 @@
     
     
 <section>
-    <h2>Últimas noticias</h2>
+    <h2>Ãšltimas noticias</h2>
     
     <article>
         <header>
@@ -122,7 +124,7 @@
         
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
         
-        <p><a href="#">leer más</a></p>
+        <p><a href="#">leer mÃ¡s</a></p>
         
     </article>
     
@@ -139,7 +141,7 @@
         
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
         
-        <p><a href="#">leer más</a></p>
+        <p><a href="#">leer mÃ¡s</a></p>
         
     </article>
     
@@ -156,7 +158,7 @@
         
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
         
-        <p><a href="#">leer más</a></p>
+        <p><a href="#">leer mÃ¡s</a></p>
         
     </article>
     
@@ -166,13 +168,13 @@
     
      
 <section>
-    <h2>Información útil</h2>
+    <h2>InformaciÃ³n Ãºtil</h2>
     
     <dl>
         <dt>Horario</dt>
         <dd>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</dd>
         
-        <dt>Gastos de envío</dt>
+        <dt>Gastos de envÃ­o</dt>
         <dd>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</dd>
         
         <dt>Chat</dt>
@@ -193,9 +195,9 @@
 <footer>
     <nav>
         <ul>
-            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">QuiÃ©nes somos</a></li>
             <li><a href="#">Servicios</a></li>
-            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Noticias</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contacto</a></li>
             <li><a href="#">Mantenimiento</a></li>
